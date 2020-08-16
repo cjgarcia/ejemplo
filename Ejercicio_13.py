@@ -1,4 +1,4 @@
-#mostrar el monto a pagar de cada articulo "lo puse todo tan pegado par que me quepa en la captura"
+#mostrar el monto a pagar de cada articulo
 import collections
 canasta_Compras = []
 parar = False
