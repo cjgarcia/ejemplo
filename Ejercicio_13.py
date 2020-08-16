@@ -26,14 +26,8 @@ items = list(filter(lambda item: isinstance(item, str),canasta_Compras))
 
 canasta_Compras.pop()# Eliminar la palabra parar de la lista
 
-dictlist = [dict() for x in range(0,len(canasta_Compras))]
-print(dictlist)
-
-"""print('\n')
+print('\n')
 for mi_canasta in canasta_Compras:
     print(mi_canasta)
 
-#print("El articulo más caro cuesta:\t", max(max_min))
-#print("El articulo más varato cuesta:\t",min(max_min))
-
-print('\ncantidad de articulos en la lista:\t',len(items)-1)"""
+print('\ncantidad de articulos en la lista:\t',len(items)-1)
